@@ -11,7 +11,7 @@ for vendedor in range(vendedores):
     folgas = 0
 
     for dia in range(dias):
-        venda = float(input(f"Digite o valor vendido no dia {dia + 1}: "))
+        venda = float(input("Digite o valor vendido no dia: "))
         
         if venda < 0:
             continue 
